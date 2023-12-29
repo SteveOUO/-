@@ -77,7 +77,7 @@ The simulations instructions are set in file `run_GreenORAM`. In each instructio
 bin/usimm input/1channel.cfg input/black > output/black_GreenORAM
 ```
 
-在复现代码中我已经编写了相应使用所有的workload进行测试，分别是`run_GreenORAM`使用原数据集、`run_GreenORAM_LOCAL`使用Local版本数据集以及`run_GreenORAM_RANDOM`使用Random版本数据集，可以跳过这一步直接执行最后一步
+在复现代码中我已经编写了相应使用所有的workload进行测试的代码，分别是`run_GreenORAM`使用原数据集、`run_GreenORAM_LOCAL`使用Local版本数据集以及`run_GreenORAM_RANDOM`使用Random版本数据集，可以跳过这一步直接执行最后一步
 
 
 
