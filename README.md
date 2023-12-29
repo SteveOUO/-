@@ -87,7 +87,7 @@ bin/usimm input/1channel.cfg input/black > output/black_GreenORAM
 After the preparations above, you can compile the project and run the simulation with the following commands:
 
 ```sh
-$ cd src
+$ cd ../src
 $ make clean
 $ make
 $ cd ..
