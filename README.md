@@ -90,8 +90,11 @@ After the preparations above, you can compile the project and run the simulation
 $ cd ../src
 $ make clean
 $ make
-$ chmod 777 bin/usimm
+$ chmod 777 ../bin/usimm
 $ cd ..
+$ chmod 777 ./run_GreenORAM
+$ chmod 777 ./run_GreenORAM_LOCAL
+$ chmod 777 ./run_GreenORAM_RANDOM
 $ ./run_GreenORAM
 $ ./run_GreenORAM_LOCAL
 $ ./run_GreenORAM_RANDOM 
