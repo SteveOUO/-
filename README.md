@@ -95,3 +95,5 @@ $ ./run_GreenORAM
 $ ./run_GreenORAM_LOCAL
 $ ./run_GreenORAM_RANDOM 
 ```
+
+复现得到的结果会保存在`output`文件夹中，以workload_GreenORAM、workload_GreenORAM_Local、workload_GreenORAM_Random命名
