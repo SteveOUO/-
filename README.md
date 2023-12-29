@@ -90,6 +90,7 @@ $ cd src
 $ make clean
 $ make
 $ cd ..
+$ chmod 777 bin/usimm
 $ ./run_GreenORAM
 $ ./run_GreenORAM_LOCAL
 $ ./run_GreenORAM_RANDOM 
