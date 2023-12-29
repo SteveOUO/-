@@ -22,7 +22,7 @@ USIMM is the Utah SImulated Memory Module, a cycle-accurate memory system simula
 
 ## Dataset
 
-在复现过程中我使用了作者使用的数据集以及对数据集进行指令访问地址局部性加强化（Local版本）以及将指令访问地址完全随机化（Random版本）的数据集
+在复现过程中我使用了作者使用的数据集以及对数据集进行指令访问地址局部性加强化（Local版本）以及将指令访问地址完全随机化（Random版本）的数据集，可以在下面网址下载所用数据集
 
 We select the dataset used in 2012 memory scheduling championship (MSC). Each workload contains 500 million representative instructions selected from the PARSEC and commercial benchmark with a methodology similar to Simpoint. The whole dataset can be downloaded in [this page](https://www.cs.utah.edu/~rajeev/jwac12/results_table.html).
 
@@ -30,13 +30,11 @@ We select the dataset used in 2012 memory scheduling championship (MSC). Each wo
 
 ## Preprocess
 
-在项目中我已经将数据集以及处理版本的数据集放在`input`文件夹中，若使用与作者相同的数据集可以直接跳过这一步
-
-如果需要使用新的数据集进行处理，可以按下面步骤：
+当把所需要的原始数据集下载到`input`文件夹后，若只使用原始版本的数据集可以直接跳过这一步，如果要复现Local版本数据集以及Random版本数据集请继续下面流程：
 
 1. 将要使用的的数据集存放到`input`文件夹中
 
-2. 修改`transLocal.cpp`和`transRandom.cpp`中的workload数组,将数据集中相应的workload名字加上 
+2. 修改`transLocal.cpp`和`transRandom.cpp`中的workload数组,将数据集中相应的workload名字加上(如果使用的是2012 memory scheduling championship (MSC)Dataset，可以跳过这一步)
 
 ```cpp
 // 创建一个包含文件名的数组
@@ -55,7 +53,7 @@ $ g++ transRandom.cpp -o transRandom
 $ ./transRandom
 ```
 
-
+运行完代码后对应的数据集（work_load + _Local/_Random）会保存在`input`文件夹当中
 
 ## Set Green ORAM mode
 
