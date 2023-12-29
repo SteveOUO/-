@@ -45,7 +45,7 @@ vector<string> filenames = {"black", "face", "ferret", "fluid", "freq", "stream"
 Then run the code as follow:
 
 ```sh
-$ cd input
+$ cd -/input
 // 转换成Local版本
 $ g++ transLocal.cpp -o transLocal
 $ ./transLocal
