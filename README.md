@@ -99,5 +99,5 @@ $ ./run_GreenORAM
 $ ./run_GreenORAM_LOCAL
 $ ./run_GreenORAM_RANDOM 
 ```
-运行每一个run_GreenORAM需要较长时间（1个小时左右），请耐心等待
+运行每一个run_GreenORAM需要较长时间（1个小时左右），请耐心等待，若助教时间有限可以直接查看随邮件发送的复现结果文件夹，里面存放了我的复现结果
 复现得到的结果会保存在`output`文件夹中，以workload_GreenORAM、workload_GreenORAM_Local、workload_GreenORAM_Random命名
